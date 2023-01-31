@@ -1,3 +1,17 @@
+html.sr{
+    background-image: url(../img/bgk.jpg);
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+   /* padding: 20%;*/
+    height: 100%;
+    width: 100%;
+    /*filter: blur(8px);*/
+  
+    position: sticky; 
+}
 *{
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +37,7 @@ a{
     --p-font: 1.1rem;
 }
 body{
-    background: var(--bg-color);
+    /*background: var(--bg-color);*/
     color: var(--text-color);
 }
 .logo img{
@@ -191,24 +205,7 @@ span {
     text-decoration: none;
 }
 
-.background{
-    background-image: url(../img/bgk.jpg);
-  
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  
-   /* padding: 20%;*/
-    height: 100%;
-    width: 100%;
-    /*filter: blur(8px);*/
-  
-    position: sticky; 
-    
 
-   
-    
-}
 .home-img img{
     max-width: 100%;
     width: 540px;
