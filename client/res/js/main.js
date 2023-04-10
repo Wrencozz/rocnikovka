@@ -45,25 +45,25 @@ function moveSlider() {
   
 }
 
-// Show popup window with the image
+
 function showPopup(imageSrc) {
     popupImage.src = imageSrc;
     popupContainer.style.display = 'flex';
     }
     
-    // Hide popup window
+   
     function hidePopup() {
     popupContainer.style.display = 'none';
     }
     
-    // Add click event listeners to slider images
+    
     sliderImages.forEach(image => {
     image.addEventListener('click', () => {
     showPopup(image.src);
     });
     });
     
-    // Add click event listeners to popup container and content to hide popup window
+    
     popupContainer.addEventListener('click', hidePopup);
     popupContent.addEventListener('click', event => {
     event.stopPropagation();
@@ -71,7 +71,7 @@ function showPopup(imageSrc) {
 nextButton.addEventListener('click', nextSlide);
 prevButton.addEventListener('click', prevSlide);
 
-// Add click event listener to popup close button
+
 popupClose.addEventListener('click', hidePopup);
 popupContainer.style.display = 'none';
 
