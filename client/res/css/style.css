@@ -550,9 +550,32 @@ section{
         transition: .3s;
 
     }
+    .slider-wrapper{
+        position: absolute;
+    display: flex;
+    height: 80%;
+    max-width: 750px;
+    margin-left: 45%;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+    touch-action: pan-y;
+    user-select: none;
+    }
     .slider-image{
-        margin: 5%;
+       
         margin-top: 1%;
+        width: 55%;
+        height: 55%;
+    }
+    .popup-image{
+        height: 85%;
+        width: 85%;
+        
+    }
+    .popup-container{
+        align-items: center;
+        justify-content: center;
     }
 }
 
