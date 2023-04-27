@@ -126,13 +126,4 @@ window.onscroll = () => {
 
 
 
-/*
-const sr = ScrollReveal ({
- distance: '45px',
- duration: 2700,
- reset: true   
-})
-sr.reveal('.home-text',{delay:350, origin:'center'})
-sr.reveal('.home-img',{delay:350, origin:'center'})
 
-sr.reveal('.podtext,.about,.service,.contact',{delay:200, origin:'bottom'})*/
